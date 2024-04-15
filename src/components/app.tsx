@@ -11,17 +11,17 @@ export function App() {
       url: 'index1.png',
     },
     {
-      url: 'index1.png',
+      url: 'conquista0.png',
     },
     {
-      url: 'index1.png',
+      url: 'conquista1.png',
     },
 
     {
-      url: 'index1.png',
+      url: 'conquista2.png',
     },
     {
-      url: 'index1.png',
+      url: 'conquista3.png',
     },
   ];
 
