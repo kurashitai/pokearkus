@@ -1,3 +1,4 @@
+"use client";
 import App from "@/components/app";
 import { Clans } from "@/components/clans";
 import { Landing } from "@/components/home";
