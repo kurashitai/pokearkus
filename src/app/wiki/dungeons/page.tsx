@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 "use client";
 import React, { useState } from "react";
 import { WikiLeft } from "@/components/wikileft";
@@ -83,9 +85,14 @@ const WikiDungeon = () => {
             className="w-full max-w-xs py-5 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl h-auto mx-auto cursor-pointer"
           />
         </div>
-        <p className="px-10 py-2">Todas as dificuldades tem várias opções de elemento para você desafiar, alterando as recompensas também baseada no elemento da Dungeon que você for tentar, lá você pode
-          encontrar Awakens, Runas, boost stones, pontos pra trocar no Dungeon Shop que fica na NPC Lenya logo ao lado da zona roxa, entre outros muitos itens, lembre sempre de olhar as
-          recompensas que da naquele elemento antes de começar.</p>
+        <p className="px-10 py-2">
+          Todas as dificuldades tem várias opções de elemento para você
+          desafiar, alterando as recompensas também baseada no elemento da
+          Dungeon que você for tentar, lá você pode encontrar Awakens, Runas,
+          boost stones, pontos pra trocar no Dungeon Shop que fica na NPC Lenya
+          logo ao lado da zona roxa, entre outros muitos itens, lembre sempre de
+          olhar as recompensas que da naquele elemento antes de começar.
+        </p>
         <p className="px-10 py-2">
           Não sabe quais Pokémon usar? Não tem problema! Clique no "i" azul no
           lado direito do sistema de dungeons para ver algumas recomendações de
@@ -93,11 +100,16 @@ const WikiDungeon = () => {
           experimente novas composições e use seu estilo de jogo. Acreditamos no
           seu potencial e incentivamos sua criatividade!
         </p>
-        <p className="px-10 py-2"><strong>Para completar uma dungeon com sucesso é bem simples</strong>: primeiramente esteja ciente que cada dungeon e cada dificuldade tem um Tempo pra ser completada, la dentro o uso de
-          potions e Revives é limitado também, pra saber a quantidade de potions, revives e o tempo limite tudo que você precisa fazer é clicar no "i" azul que tem no canto direito da interface
-          da Dungeon, lá no mesmo lugar que mostra os pokemons recomendados e os pokemons capturáveis ao final da dungeon.</p>
+        <p className="px-10 py-2">
+          <strong>Para completar uma dungeon com sucesso é bem simples</strong>:
+          primeiramente esteja ciente que cada dungeon e cada dificuldade tem um
+          Tempo pra ser completada, la dentro o uso de potions e Revives é
+          limitado também, pra saber a quantidade de potions, revives e o tempo
+          limite tudo que você precisa fazer é clicar no "i" azul que tem no
+          canto direito da interface da Dungeon, lá no mesmo lugar que mostra os
+          pokemons recomendados e os pokemons capturáveis ao final da dungeon.
+        </p>
         <div className="flex justify-center items-center w-full h-full my-4">
-
           <Image
             src="/wiki/dungeons.png"
             alt="Dungeons"
@@ -106,14 +118,28 @@ const WikiDungeon = () => {
             className="w-full max-w-xs py-5 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl h-auto mx-auto cursor-pointer"
           />
         </div>
-        <p className="px-10 py-2">Tendo essas informações em mãos, está na hora de juntar sua equipe e entrar na Dungeon, usando o exemplo a Dungeon do Beartic na imagem a cima, vemos que ela tem limite de 30
-          minutos, 30 revives e 50 potions, como mostrado nas marcações vermelhas. Ao entrar na masmorra aparece o Timer e a Porcentagem % em algum lugar na sua tela, você pode
-          arrastar ele pra colocar onde quiser e se organizar melhor, agora tudo que você precisa fazer é simplesmente derrotar TODOS os pokemons, ao chegar em 50% a porcentagem o
-          Chefe da sala vai aparecer, que no caso da dungeon que estamos usando de exemplo é o próprio Beartic, tome cuidado, os bosses são bem fortes e irão te matar sem o menor
-          esforço se você vacilar.</p>
-        <p className="px-10 py-2">Ao derrotar o chefe da sala, você será teletransportado pra uma sala, cercado por 6 pilares onde estão os pokemons pra você tentar capturar, ainda usando o exemplo da dungeon do
-          Beartic seria o Cubchoo e o próprio Beartic, jogue as bolas neles e se dirija ao norte (cima) da sala, lá terá um baú, ao abrir ele você receberá as recompensas da sala e será
-          teleportado direto pra sala das Dungeons, feito isso sua Dungeon está completa, só entrar novamente e repetir todo o processo.</p>
+        <p className="px-10 py-2">
+          Tendo essas informações em mãos, está na hora de juntar sua equipe e
+          entrar na Dungeon, usando o exemplo a Dungeon do Beartic na imagem a
+          cima, vemos que ela tem limite de 30 minutos, 30 revives e 50 potions,
+          como mostrado nas marcações vermelhas. Ao entrar na masmorra aparece o
+          Timer e a Porcentagem % em algum lugar na sua tela, você pode arrastar
+          ele pra colocar onde quiser e se organizar melhor, agora tudo que você
+          precisa fazer é simplesmente derrotar TODOS os pokemons, ao chegar em
+          50% a porcentagem o Chefe da sala vai aparecer, que no caso da dungeon
+          que estamos usando de exemplo é o próprio Beartic, tome cuidado, os
+          bosses são bem fortes e irão te matar sem o menor esforço se você
+          vacilar.
+        </p>
+        <p className="px-10 py-2">
+          Ao derrotar o chefe da sala, você será teletransportado pra uma sala,
+          cercado por 6 pilares onde estão os pokemons pra você tentar capturar,
+          ainda usando o exemplo da dungeon do Beartic seria o Cubchoo e o
+          próprio Beartic, jogue as bolas neles e se dirija ao norte (cima) da
+          sala, lá terá um baú, ao abrir ele você receberá as recompensas da
+          sala e será teleportado direto pra sala das Dungeons, feito isso sua
+          Dungeon está completa, só entrar novamente e repetir todo o processo.
+        </p>
         <p className="px-10 pb-10 py-2 italic">
           O que você está esperando? Enfrente os desafios das nossas dungeons e
           alcance o top ranking. Boa sorte e divirta-se!
