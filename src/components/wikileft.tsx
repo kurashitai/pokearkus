@@ -84,7 +84,7 @@ export function WikiLeft() {
             <ul className="space-y-1">
               <li id="characters">
                 <a
-                  href="#clans"
+                  href="/wiki/clans"
                   className="text-blue-500 hover:underline block p-2"
                 >
                   Clans
@@ -100,10 +100,10 @@ export function WikiLeft() {
               </li>
               <li id="progression">
                 <a
-                  href="#progression"
+                  href="/wiki/dungeons"
                   className="text-blue-500 hover:underline block p-2"
                 >
-                  Progressão
+                  Dungeons
                 </a>
               </li>
             </ul>
@@ -193,7 +193,7 @@ export function WikiLeft() {
               </li>
               <li id="boost-system">
                 <a
-                  href="#boost-system"
+                  href="/wiki/boost"
                   className="text-blue-500 hover:underline block p-2"
                 >
                   Sistema de Boost

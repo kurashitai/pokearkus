@@ -47,7 +47,7 @@ const systems = [
     image: "/system/dz.png",
     alt: "dungeon system",
     title: "Dungeons",
-    link: "../wiki",
+    link: "../wiki/dungeons",
   },
   {
     image: "/system/goal.png",
@@ -63,8 +63,8 @@ const systems = [
   },
   {
     image: "/system/tierlist.png",
-    alt: "tier list system",
-    title: "Tier List",
-    link: "/tierlist",
+    alt: "clans system",
+    title: "Clans",
+    link: "/wiki/clans",
   },
 ];

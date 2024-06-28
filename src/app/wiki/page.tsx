@@ -58,52 +58,22 @@ const Wiki = () => {
 
 const systems = [
   {
-    image: "/system/dz.png",
-    alt: "dungeon system",
-    title: "Dungeons",
-    link: "/wiki/clans",
-  },
-  {
-    image: "/system/goal.png",
-    alt: "goal system",
-    title: "Goal",
-    link: "/goal",
-  },
-  {
-    image: "/system/ud.png",
-    alt: "ultra dimention system",
-    title: "UltraDimention",
-    link: "/ultradimention",
-  },
-  {
     image: "/system/tierlist.png",
-    alt: "tier list system",
-    title: "Tier List",
-    link: "/tierlist",
+    alt: "clans system",
+    title: "Clans",
+    link: "/wiki/clans",
   },
   {
     image: "/system/dz.png",
     alt: "dungeon system",
     title: "Dungeons",
-    link: "/wiki/clans",
+    link: "/wiki/dungeons",
   },
   {
     image: "/system/goal.png",
     alt: "goal system",
-    title: "Goal",
-    link: "/goal",
-  },
-  {
-    image: "/system/ud.png",
-    alt: "ultra dimention system",
-    title: "UltraDimention",
-    link: "/ultradimention",
-  },
-  {
-    image: "/system/tierlist.png",
-    alt: "tier list system",
-    title: "Tier List",
-    link: "/tierlist",
+    title: "Boost",
+    link: "/wiki/boost",
   },
 ];
 
