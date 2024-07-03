@@ -14,15 +14,15 @@ const WikiClans = () => {
         Sistema de clãs
       </h1>
       <div className="bg-white border border-gray-300 rounded-lg text-justify w-[100%] max-w-full sm:w-[60%] mx-auto p-4">
-        <p className="px-10 pt-10 py-2">
-          Com a chegada do aguardado patch 9.0, o sistema de clãs passou por uma
-          completa reformulação, trazendo uma nova dinâmica e benefícios
-          diversificados para os jogadores. Anteriormente, os bônus oferecidos
-          eram fixos: 10% de dano adicional e 20% de defesa aumentada. Agora,
-          esses bônus são ajustados de acordo com o rank do jogador dentro do
-          clã, criando uma experiência mais personalizada e estratégica.
+        <p className=" xl:px-10 md:px-4 sm:px-2 pt-10 py-2">
+          O sistema de clãs passou por uma completa reformulação, trazendo uma
+          nova dinâmica e benefícios diversificados para os jogadores.
+          Anteriormente, os bônus oferecidos eram fixos: 10% de dano adicional e
+          20% de defesa aumentada. Agora, esses bônus são ajustados de acordo
+          com o rank do jogador dentro do clã, criando uma experiência mais
+          personalizada e estratégica.
         </p>
-        <p className="px-10 py-2">
+        <p className=" xl:px-10 md:px-4 sm:px-2 py-2">
           Os jogadores no rank 1 desfrutam de um modesto aumento de 4% tanto no
           dano quanto na defesa. À medida que avançam nos ranks, esses bônus se
           tornam progressivamente mais significativos, culminando em um
@@ -30,7 +30,7 @@ const WikiClans = () => {
           oferece a exclusividade de um Awaken único de clã, além de trajes
           especiais que refletem o status elevado do jogador.
         </p>
-        <p className="px-10 py-2">
+        <p className=" xl:px-10 md:px-4 sm:px-2 py-2">
           O sistema de outfits para os clãs também foi aprimorado, adicionando
           um elemento visual de prestígio. Existem dois trajes distintos para
           cada clã: um é concedido aos jogadores que alcançam o rank 3, e o
@@ -38,7 +38,7 @@ const WikiClans = () => {
           outfits não são meros adornos, mas símbolos de dedicação e progresso
           dentro do clã.
         </p>
-        <p className="px-10 py-2">
+        <p className=" xl:px-10 md:px-4 sm:px-2 py-2">
           Para ascender nos ranks, os jogadores precisam completar uma série de
           tarefas específicas a cada nível. A flexibilidade do novo sistema
           permite que essas tarefas sejam iniciadas em qualquer nível de
@@ -46,19 +46,19 @@ const WikiClans = () => {
           conclusão, proporcionando uma experiência de jogo mais livre e
           adaptável ao ritmo individual de cada membro do clã.
         </p>
-        <p className="px-10 py-2 pb-10">
+        <p className=" xl:px-10 md:px-4 sm:px-2 py-2 pb-10">
           Esta reformulação promete enriquecer a interação entre os membros do
-          clã, incentivando a colaboração e a busca constante por melhorias. Com
-          o patch 9.0, a jornada dentro do clã se torna não apenas uma questão
-          de honra, mas uma emocionante aventura repleta de desafios e
-          recompensas.
+          clã, incentivando a colaboração e a busca constante por melhorias. A
+          jornada dentro do clã se tornou não apenas uma questão de honra, mas
+          uma emocionante aventura repleta de desafios e recompensas.
         </p>
         <Accordion
           title="Volcanic"
-          className="bg-red-600 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+          imageSrc="/clan/volcanicb.png"
+          className="bg-red-600 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 text-white font-bold"
         >
           <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
-            <p className="px-10 py-2">
+            <p className=" xl:px-10 md:px-4 sm:px-2 py-2 flex">
               O clã Volcanic é um clã especializado unicamente no elemento fogo,
               mas não pense que você pode brincar com ele só porque ele se
               especializou em um único elemento, eles seguem a doutrina de
@@ -70,9 +70,15 @@ const WikiClans = () => {
               você começa no ranking 1 e tem que fazer ao todo 25 tasks para
               chegar no ranking mais alto!
             </p>
+            <p className=" xl:px-10 md:px-4 sm:px-2 py-2 flex">
+              Caso você deseje se aventurar neste clã e desbloquear todo seu
+              potencial, logo abaixo está preparado uma lista contendo tudo que
+              você vai precisar em cada ranking, em cada task, para assim você
+              poder se preparar para o que está por vir! Boa sorte, treinador.
+            </p>
             <Accordion
               title="Rank 1"
-              className="bg-red-600 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-red-600 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -103,7 +109,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 2"
-              className="bg-red-600 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-red-600 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -133,7 +139,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 3"
-              className="bg-red-600 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-red-600 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -164,7 +170,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 4"
-              className="bg-red-600 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-red-600 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -216,13 +222,14 @@ const WikiClans = () => {
         </Accordion>
         <Accordion
           title="Naturia"
-          className="bg-green-400 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+          imageSrc="/clan/naturiab.png"
+          className="bg-green-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
         >
           <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
             <p className="px-2 py-2">Teste</p>
             <Accordion
               title="Rank 1"
-              className="bg-green-400 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-green-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -253,7 +260,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 2"
-              className="bg-green-400 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-green-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -283,7 +290,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 3"
-              className="bg-green-400 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-green-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -314,7 +321,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 4"
-              className="bg-green-400 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-green-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -366,13 +373,14 @@ const WikiClans = () => {
         </Accordion>
         <Accordion
           title="Seavell"
-          className="bg-cyan-400 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+          imageSrc="/clan/seavellb.png"
+          className="bg-cyan-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
         >
           <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
             <p className="px-2 py-2">Teste</p>
             <Accordion
               title="Rank 1"
-              className="bg-cyan-400 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-cyan-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -403,7 +411,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 2"
-              className="bg-cyan-400 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-cyan-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -433,7 +441,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 3"
-              className="bg-cyan-400 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-cyan-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -464,7 +472,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 4"
-              className="bg-cyan-400 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-cyan-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -516,13 +524,14 @@ const WikiClans = () => {
         </Accordion>
         <Accordion
           title="Wingeon"
-          className="bg-gray-300 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+          imageSrc="/clan/wingeonb.png"
+          className="bg-gray-300 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
         >
           <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
             <p className="px-2 py-2">Teste</p>
             <Accordion
               title="Rank 1"
-              className="bg-gray-300 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-gray-300 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -553,7 +562,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 2"
-              className="bg-gray-300 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-gray-300 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -583,7 +592,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 3"
-              className="bg-gray-300 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-gray-300 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -614,7 +623,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 4"
-              className="bg-gray-300 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-gray-300 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -666,13 +675,14 @@ const WikiClans = () => {
         </Accordion>
         <Accordion
           title="Raibolt"
-          className="bg-yellow-400 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+          imageSrc="/clan/raiboltb.png"
+          className="bg-yellow-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
         >
           <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
             <p className="px-2 py-2">Teste</p>
             <Accordion
               title="Rank 1"
-              className="bg-yellow-400 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-yellow-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -703,7 +713,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 2"
-              className="bg-yellow-400 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-yellow-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -733,7 +743,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 3"
-              className="bg-yellow-400 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-yellow-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -764,7 +774,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 4"
-              className="bg-yellow-400 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-yellow-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -816,13 +826,14 @@ const WikiClans = () => {
         </Accordion>
         <Accordion
           title="Malefic"
-          className="bg-purple-600 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+          imageSrc="/clan/maleficb.png"
+          className="bg-purple-600 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
         >
           <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
             <p className="px-2 py-2">Teste</p>
             <Accordion
               title="Rank 1"
-              className="bg-purple-600 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-purple-600 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -853,7 +864,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 2"
-              className="bg-purple-600 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-purple-600 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -883,7 +894,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 3"
-              className="bg-purple-600 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-purple-600 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -914,7 +925,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 4"
-              className="bg-purple-600 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-purple-600 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -966,13 +977,14 @@ const WikiClans = () => {
         </Accordion>
         <Accordion
           title="Orebound"
-          className="bg-black p-1 rounded-lg mx-9 my-2 text-white font-bold"
+          imageSrc="/clan/oreboundb.png"
+          className="bg-black p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
         >
           <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
             <p className="px-2 py-2">Teste</p>
             <Accordion
               title="Rank 1"
-              className="bg-black p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-black p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -1003,7 +1015,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 2"
-              className="bg-black p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-black p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -1033,7 +1045,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 3"
-              className="bg-black p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-black p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -1064,7 +1076,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 4"
-              className="bg-black p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-black p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -1116,13 +1128,14 @@ const WikiClans = () => {
         </Accordion>
         <Accordion
           title="Psycraft"
-          className="bg-pink-400 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+          imageSrc="/clan/psycraftb.png"
+          className="bg-pink-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
         >
           <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
             <p className="px-2 py-2">Teste</p>
             <Accordion
               title="Rank 1"
-              className="bg-pink-400 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-pink-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -1153,7 +1166,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 2"
-              className="bg-pink-400 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-pink-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -1183,7 +1196,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 3"
-              className="bg-pink-400 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-pink-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -1214,7 +1227,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 4"
-              className="bg-pink-400 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-pink-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -1266,13 +1279,14 @@ const WikiClans = () => {
         </Accordion>
         <Accordion
           title="Gardestrike"
-          className=" bg-amber-900 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+          imageSrc="/clan/gardestrikeb.png"
+          className=" bg-amber-900 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
         >
           <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
             <p className="px-2 py-2">Teste</p>
             <Accordion
               title="Rank 1"
-              className="bg-amber-900 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-amber-900 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -1309,7 +1323,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 2"
-              className="bg-amber-900 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-amber-900 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -1332,7 +1346,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 3"
-              className="bg-amber-900 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-amber-900 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -1363,7 +1377,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 4"
-              className="bg-amber-900 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-amber-900 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -1415,13 +1429,14 @@ const WikiClans = () => {
         </Accordion>
         <Accordion
           title="Ironhard"
-          className="bg-gray-600 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+          imageSrc="/clan/ironhardb.png"
+          className="bg-gray-600 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
         >
           <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
             <p className="px-2 py-2">Teste</p>
             <Accordion
               title="Rank 1"
-              className="bg-gray-600 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-gray-600 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -1451,7 +1466,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 2"
-              className="bg-gray-600 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-gray-600 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -1481,7 +1496,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 3"
-              className="bg-gray-600 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-gray-600 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">
@@ -1512,7 +1527,7 @@ const WikiClans = () => {
 
             <Accordion
               title="Rank 4"
-              className="bg-gray-600 p-1 rounded-lg mx-9 my-2 text-white font-bold"
+              className="bg-gray-600 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
             >
               <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
                 <ul className="list-disc list-inside">

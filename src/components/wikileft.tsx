@@ -17,7 +17,7 @@ export function WikiLeft() {
 
       <div
         id="wiki-panel"
-        className={`lg:w-64 h-screen border-r border-gray-300 bg-gray-100 overflow-y-auto pt-[6rem] p-4 fixed top-0 left-0 transform ${
+        className={`lg:w-56 h-screen border-r border-gray-300 bg-gray-100 overflow-y-auto pt-[6rem] p-4 fixed top-0 left-0 transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } lg:translate-x-0 transition-transform duration-300 ease-in-out`}
         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}

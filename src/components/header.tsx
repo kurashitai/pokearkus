@@ -22,6 +22,14 @@ export function Header() {
 
   const activedStyled = "bg-zinc-600 text-white text-opacity-100 rounded-full";
 
+  // Helper function to check if the path starts with a certain route
+  const isActive = (route: string) => {
+    if (route === "/") {
+      return pathname === "/";
+    }
+    return pathname.startsWith(route) && pathname !== "/";
+  };
+
   return (
     <header className="relative w-full h-24 text-white bg-white flex items-center z-50">
       <GridContainer className="flex items-center justify-between w-full px-4">
@@ -34,7 +42,7 @@ export function Header() {
               key={index}
               href={item.link}
               className={`px-4 py-2 hover:text-opacity-100 transition-all ${
-                pathname === item.link
+                isActive(item.link)
                   ? activedStyled
                   : "text-black text-opacity-50 hover:rounded-full hover:bg-zinc-400"
               }`}
@@ -72,7 +80,7 @@ export function Header() {
                   key={index}
                   href={item.link}
                   className={`px-4 py-2 hover:text-opacity-100 transition-all ${
-                    pathname === item.link
+                    isActive(item.link)
                       ? activedStyled
                       : "text-black text-opacity-50 hover:rounded-full hover:bg-zinc-400"
                   }`}

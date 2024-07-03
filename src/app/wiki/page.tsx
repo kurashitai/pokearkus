@@ -75,6 +75,12 @@ const systems = [
     title: "Boost",
     link: "/wiki/boost",
   },
+  {
+    image: "/system/goal.png",
+    alt: "held system",
+    title: "Helds+Device",
+    link: "/wiki/helds",
+  },
 ];
 
 export default Wiki;

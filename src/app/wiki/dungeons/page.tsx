@@ -20,13 +20,13 @@ const WikiDungeon = () => {
         Dungeons
       </h1>
       <div className="bg-white border border-gray-300 rounded-lg text-justify w-[100%] max-w-full sm:w-[60%] mx-auto p-4">
-        <p className="px-10 pt-10 py-2">
+        <p className="pt-10 py-2 xl: xl:px-10 md:px-4 sm:px-2">
           As dungeons no Poke Arkus foram completamente reformuladas, trazendo
           um visual renovado e desafios ainda mais emocionantes. Prepare-se para
           testar seus limites e conquistar recompensas incríveis, proporcionais
           ao nível de dificuldade escolhido, junto com seus amigos.
         </p>
-        <p className="px-10 py-2">
+        <p className=" xl:px-10 md:px-4 sm:px-2 py-2">
           Para acessar o novo painel de dungeons, dirija-se ao Centro Pokémon e
           vá até o TC, situado na zona roxa com cristais. Clique no botão no
           centro superior da tela, escolha a dificuldade e a sala de elemento
@@ -69,7 +69,7 @@ const WikiDungeon = () => {
             className="max-w-xs pb-5 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl h-auto mx-auto cursor-pointer"
           />
         </div>
-        <p className="px-10 py-2">
+        <p className=" xl:px-10 md:px-4 sm:px-2 py-2">
           Ao abrir o sistema de Dungeons, você verá uma tela onde poderá
           conferir os Pokémon presentes na dungeon, a experiência ganha ao
           completá-la e os possíveis itens que podem ser obtidos. Ao clicar no
@@ -85,7 +85,7 @@ const WikiDungeon = () => {
             className="w-full max-w-xs py-5 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl h-auto mx-auto cursor-pointer"
           />
         </div>
-        <p className="px-10 py-2">
+        <p className=" xl:px-10 md:px-4 sm:px-2 py-2">
           Todas as dificuldades tem várias opções de elemento para você
           desafiar, alterando as recompensas também baseada no elemento da
           Dungeon que você for tentar, lá você pode encontrar Awakens, Runas,
@@ -93,14 +93,14 @@ const WikiDungeon = () => {
           logo ao lado da zona roxa, entre outros muitos itens, lembre sempre de
           olhar as recompensas que da naquele elemento antes de começar.
         </p>
-        <p className="px-10 py-2">
+        <p className=" xl:px-10 md:px-4 sm:px-2 py-2">
           Não sabe quais Pokémon usar? Não tem problema! Clique no "i" azul no
           lado direito do sistema de dungeons para ver algumas recomendações de
           times e itens. No entanto, não se limite a estas sugestões;
           experimente novas composições e use seu estilo de jogo. Acreditamos no
           seu potencial e incentivamos sua criatividade!
         </p>
-        <p className="px-10 py-2">
+        <p className=" xl:px-10 md:px-4 sm:px-2 py-2">
           <strong>Para completar uma dungeon com sucesso é bem simples</strong>:
           primeiramente esteja ciente que cada dungeon e cada dificuldade tem um
           Tempo pra ser completada, la dentro o uso de potions e Revives é
@@ -118,7 +118,7 @@ const WikiDungeon = () => {
             className="w-full max-w-xs py-5 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl h-auto mx-auto cursor-pointer"
           />
         </div>
-        <p className="px-10 py-2">
+        <p className=" xl:px-10 md:px-4 sm:px-2 py-2">
           Tendo essas informações em mãos, está na hora de juntar sua equipe e
           entrar na Dungeon, usando o exemplo a Dungeon do Beartic na imagem a
           cima, vemos que ela tem limite de 30 minutos, 30 revives e 50 potions,
@@ -131,7 +131,7 @@ const WikiDungeon = () => {
           bosses são bem fortes e irão te matar sem o menor esforço se você
           vacilar.
         </p>
-        <p className="px-10 py-2">
+        <p className=" xl:px-10 md:px-4 sm:px-2 py-2">
           Ao derrotar o chefe da sala, você será teletransportado pra uma sala,
           cercado por 6 pilares onde estão os pokemons pra você tentar capturar,
           ainda usando o exemplo da dungeon do Beartic seria o Cubchoo e o
@@ -140,7 +140,7 @@ const WikiDungeon = () => {
           sala e será teleportado direto pra sala das Dungeons, feito isso sua
           Dungeon está completa, só entrar novamente e repetir todo o processo.
         </p>
-        <p className="px-10 pb-10 py-2 italic">
+        <p className=" xl:px-10 md:px-4 sm:px-2 pb-10 py-2 italic">
           O que você está esperando? Enfrente os desafios das nossas dungeons e
           alcance o top ranking. Boa sorte e divirta-se!
         </p>

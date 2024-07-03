@@ -6,9 +6,7 @@ export function System() {
     window.location.href = link;
   };
 
-  useEffect(() => {
-    // Aqui você pode colocar qualquer outra lógica necessária no futuro
-  }, []);
+  useEffect(() => {}, []);
 
   return (
     <div className="relative w-full bg-gray-400">
@@ -30,7 +28,7 @@ export function System() {
                   height={270}
                   alt={system.alt}
                 />
-                <p className="text-center uppercase text-xl font-extrabold dark:text-white py-3 shadow-sm">
+                <p className="text-center uppercase xl:text-xl lg:text-lg m:text-normal font-extrabold dark:text-white py-3 shadow-sm">
                   {system.title}
                 </p>
               </div>
