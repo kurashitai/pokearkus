@@ -81,6 +81,18 @@ const systems = [
     title: "Helds+Device",
     link: "/wiki/helds",
   },
+  {
+    image: "/system/goal.png",
+    alt: "held system",
+    title: "Tasks+Proficiência",
+    link: "/wiki/tasks",
+  },
+  {
+    image: "/system/goal.png",
+    alt: "held system",
+    title: "Ultra Dimension",
+    link: "/wiki/ud",
+  },
 ];
 
 export default Wiki;
