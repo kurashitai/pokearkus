@@ -11,7 +11,6 @@ export function Clans() {
           <Image
             className="cursor-pointer rounded-3xl py-4"
             src={"/clan/garde.png"}
-            href="/wiki/clans"
             width={186}
             height={440}
             alt="gardestrike"
