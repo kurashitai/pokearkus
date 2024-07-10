@@ -102,7 +102,7 @@ const WikiClans = () => {
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 4</h3>
-                  <p className="ml-4">Magmar</p>
+                  <p className="ml-4">Entregar um Magmar</p>
                 </ul>
               </div>
             </Accordion>
@@ -152,7 +152,7 @@ const WikiClans = () => {
                   <p className="ml-4">Catch Shiny Magmar</p>
 
                   <h3 className="font-bold text-gray-700">Task 12</h3>
-                  <p className="ml-4">Shiny Magmar</p>
+                  <p className="ml-4">Entregar um Shiny Magmar</p>
 
                   <h3 className="font-bold text-gray-700">Task 13</h3>
                   <p className="ml-4">Defeat 500 Shiny Typhlosion</p>
@@ -183,7 +183,7 @@ const WikiClans = () => {
                   <p className="ml-4">Catch Shiny Arcanine</p>
 
                   <h3 className="font-bold text-gray-700">Task 18</h3>
-                  <p className="ml-4">Shiny Arcanine</p>
+                  <p className="ml-4">Entregar um Shiny Arcanine</p>
 
                   <h3 className="font-bold text-gray-700">Task 19</h3>
                   <p className="ml-4">Defeat 8000 Chandelure</p>
@@ -263,7 +263,7 @@ const WikiClans = () => {
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 4</h3>
-                  <p className="ml-4">Victreebel</p>
+                  <p className="ml-4">Entregar um Victreebel</p>
                 </ul>
               </div>
             </Accordion>
@@ -277,15 +277,15 @@ const WikiClans = () => {
                   <h3 className="font-bold text-gray-700">Task 5</h3>
                   <ul className="ml-4 list-disc list-inside">
                     <li>Nature essence x300</li>
-                    <li>Nature fragment x30</li>
+                    <li>Naturia fragment x30</li>
                     <li>Leaf stone x75</li>
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 6</h3>
-                  <p className="ml-4">Catch Sceptile</p>
+                  <p className="ml-4">Catch Meganium</p>
 
                   <h3 className="font-bold text-gray-700">Task 7</h3>
-                  <p className="ml-4">Defeat 500 Vileplume</p>
+                  <p className="ml-4">Defeat 500 Ariados</p>
 
                   <h3 className="font-bold text-gray-700">Task 8</h3>
                   <ul className="ml-4 list-disc list-inside">
@@ -293,7 +293,7 @@ const WikiClans = () => {
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 9</h3>
-                  <p className="ml-4">Defeat 500 Torterra</p>
+                  <p className="ml-4">Defeat 500 Sceptile</p>
                 </ul>
               </div>
             </Accordion>
@@ -306,24 +306,24 @@ const WikiClans = () => {
                 <ul className="list-disc list-inside">
                   <h3 className="font-bold text-gray-700">Task 10</h3>
                   <ul className="ml-4 list-disc list-inside">
-                    <li>Shiny nature stone x15</li>
+                    <li>Shiny Naturia Stone x15</li>
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 11</h3>
-                  <p className="ml-4">Catch Shiny Leafeon</p>
+                  <p className="ml-4">Catch Shiny Parasect</p>
 
                   <h3 className="font-bold text-gray-700">Task 12</h3>
-                  <p className="ml-4">Shiny Leafeon</p>
+                  <p className="ml-4">Entregar um Shiny Parasect</p>
 
                   <h3 className="font-bold text-gray-700">Task 13</h3>
-                  <p className="ml-4">Defeat 500 Shiny Vileplume</p>
+                  <p className="ml-4">Defeat 500 Shiny Shiftry</p>
 
                   <h3 className="font-bold text-gray-700">Task 14</h3>
                   <p className="ml-4">Defeat 500 Tangrowth</p>
 
                   <h3 className="font-bold text-gray-700">Task 15</h3>
                   <ul className="ml-4 list-disc list-inside">
-                    <li>Verdant Knot x5</li>
+                    <li>Giant Vines x5</li>
                   </ul>
                 </ul>
               </div>
@@ -341,36 +341,36 @@ const WikiClans = () => {
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 17</h3>
-                  <p className="ml-4">Catch Shiny Sceptile</p>
+                  <p className="ml-4">Catch Shiny Belossom</p>
 
                   <h3 className="font-bold text-gray-700">Task 18</h3>
-                  <p className="ml-4">Shiny Sceptile</p>
+                  <p className="ml-4">Entregar um Shiny Belossom</p>
 
                   <h3 className="font-bold text-gray-700">Task 19</h3>
-                  <p className="ml-4">Defeat 8000 Lurantis</p>
+                  <p className="ml-4">Defeat 8000 Maractus</p>
 
                   <h3 className="font-bold text-gray-700">Task 20</h3>
                   <ul className="ml-4 list-disc list-inside">
-                    <li>Nature Crystal x1000</li>
+                    <li>Cristal de Sacrificio (Nature) x1000</li>
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 21</h3>
-                  <p className="ml-4">Defeat 2000 Chesnaught</p>
+                  <p className="ml-4">Defeat 2000 Torterra</p>
 
                   <h3 className="font-bold text-gray-700">Task 22</h3>
-                  <p className="ml-4">Catch Lurantis</p>
+                  <p className="ml-4">Catch Maractus</p>
 
                   <h3 className="font-bold text-gray-700">Task 23</h3>
                   <ul className="ml-4 list-disc list-inside">
-                    <li>Summoning Relic (Verdant) x1000</li>
+                    <li>Reliquia de Invocação (Arbor) x1000</li>
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 24</h3>
-                  <p className="ml-4">Defeat 500 Shiny Chesnaught</p>
+                  <p className="ml-4">Defeat 500 Shiny Torterra</p>
 
                   <h3 className="font-bold text-gray-700">Task 25</h3>
                   <ul className="ml-4 list-disc list-inside">
-                    <li>Forest King Armor x1</li>
+                    <li>Mandragora x1</li>
                   </ul>
                 </ul>
               </div>
@@ -406,25 +406,25 @@ const WikiClans = () => {
                 <ul className="list-disc list-inside">
                   <h3 className="font-bold text-gray-700">Task 1</h3>
                   <ul className="ml-4 list-disc list-inside">
-                    <li>11237 Water Pendant x100</li>
-                    <li>17067 Solid Water Gem x25</li>
+                    <li> Water Pendant x100</li>
+                    <li> Solid Water Gem x25</li>
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 2</h3>
                   <ul className="ml-4 list-disc list-inside">
-                    <li>10531 Water Stone x20</li>
-                    <li>17135 Seavell Essence x50</li>
+                    <li> Water Stone x20</li>
+                    <li> Seavell Essence x50</li>
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 3</h3>
                   <ul className="ml-4 list-disc list-inside">
-                    <li>11225 Squirtle Hull x30</li>
-                    <li>11255 Ruby x30</li>
-                    <li>11268 Ice Orb x30</li>
+                    <li> Squirtle Hull x30</li>
+                    <li> Ruby x30</li>
+                    <li> Ice Orb x30</li>
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 4</h3>
-                  <p className="ml-4">Gyarados</p>
+                  <p className="ml-4">Entregar um Gyarados</p>
                 </ul>
               </div>
             </Accordion>
@@ -437,9 +437,9 @@ const WikiClans = () => {
                 <ul className="list-disc list-inside">
                   <h3 className="font-bold text-gray-700">Task 5</h3>
                   <ul className="ml-4 list-disc list-inside">
-                    <li>17135 Seavell Essence x300</li>
-                    <li>17620 Seavell Fragment x30</li>
-                    <li>10531 Water Stone x75</li>
+                    <li> Seavell Essence x300</li>
+                    <li> Seavell Fragment x30</li>
+                    <li> Water Stone x75</li>
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 6</h3>
@@ -450,7 +450,7 @@ const WikiClans = () => {
 
                   <h3 className="font-bold text-gray-700">Task 8</h3>
                   <ul className="ml-4 list-disc list-inside">
-                    <li>10531 Water Stone x250</li>
+                    <li> Water Stone x250</li>
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 9</h3>
@@ -467,14 +467,14 @@ const WikiClans = () => {
                 <ul className="list-disc list-inside">
                   <h3 className="font-bold text-gray-700">Task 10</h3>
                   <ul className="ml-4 list-disc list-inside">
-                    <li>17610 Shiny Seavell Stone x15</li>
+                    <li> Shiny Seavell Stone x15</li>
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 11</h3>
                   <p className="ml-4">Catch Shiny Jynx</p>
 
                   <h3 className="font-bold text-gray-700">Task 12</h3>
-                  <p className="ml-4">Shiny Jynx</p>
+                  <p className="ml-4">Entregar um Shiny Jynx</p>
 
                   <h3 className="font-bold text-gray-700">Task 13</h3>
                   <p className="ml-4">Defeat 500 Shiny Blastoise</p>
@@ -484,7 +484,7 @@ const WikiClans = () => {
 
                   <h3 className="font-bold text-gray-700">Task 15</h3>
                   <ul className="ml-4 list-disc list-inside">
-                    <li>33169 Prism Scale x5</li>
+                    <li> Prism Scale x5</li>
                   </ul>
                 </ul>
               </div>
@@ -498,21 +498,21 @@ const WikiClans = () => {
                 <ul className="list-disc list-inside">
                   <h3 className="font-bold text-gray-700">Task 16</h3>
                   <ul className="ml-4 list-disc list-inside">
-                    <li>17067 Solid Water Gem x1000</li>
+                    <li> Solid Water Gem x1000</li>
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 17</h3>
                   <p className="ml-4">Catch Shiny Pelipper</p>
 
                   <h3 className="font-bold text-gray-700">Task 18</h3>
-                  <p className="ml-4">Shiny Pelipper</p>
+                  <p className="ml-4">Entregar um Shiny Pelipper</p>
 
                   <h3 className="font-bold text-gray-700">Task 19</h3>
                   <p className="ml-4">Defeat 8000 Cryogonal</p>
 
                   <h3 className="font-bold text-gray-700">Task 20</h3>
                   <ul className="ml-4 list-disc list-inside">
-                    <li>27792 Cristal de Sacrificio (Aqua) x1000</li>
+                    <li> Cristal de Sacrificio (Aqua) x1000</li>
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 21</h3>
@@ -523,7 +523,7 @@ const WikiClans = () => {
 
                   <h3 className="font-bold text-gray-700">Task 23</h3>
                   <ul className="ml-4 list-disc list-inside">
-                    <li>28546 Reliquia de Invocação (Mare) x1000</li>
+                    <li> Reliquia de Invocação (Mare) x1000</li>
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 24</h3>
@@ -531,7 +531,7 @@ const WikiClans = () => {
 
                   <h3 className="font-bold text-gray-700">Task 25</h3>
                   <ul className="ml-4 list-disc list-inside">
-                    <li>33254 Emperor Trindent x1</li>
+                    <li> Emperor Trindent x1</li>
                   </ul>
                 </ul>
               </div>
@@ -585,7 +585,7 @@ const WikiClans = () => {
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 4</h3>
-                  <p className="ml-4">Dragonite</p>
+                  <p className="ml-4">Entregar um Dragonite</p>
                 </ul>
               </div>
             </Accordion>
@@ -635,7 +635,7 @@ const WikiClans = () => {
                   <p className="ml-4">Catch Shiny Farfetchd</p>
 
                   <h3 className="font-bold text-gray-700">Task 12</h3>
-                  <p className="ml-4">Shiny Farfetchd</p>
+                  <p className="ml-4">Entregar um Shiny Farfetchd</p>
 
                   <h3 className="font-bold text-gray-700">Task 13</h3>
                   <p className="ml-4">Defeat 500 Shiny Altaria</p>
@@ -666,7 +666,7 @@ const WikiClans = () => {
                   <p className="ml-4">Catch Shiny Swellow</p>
 
                   <h3 className="font-bold text-gray-700">Task 18</h3>
-                  <p className="ml-4">Shiny Swellow</p>
+                  <p className="ml-4">Entregar um Shiny Swellow</p>
 
                   <h3 className="font-bold text-gray-700">Task 19</h3>
                   <p className="ml-4">Defeat 8000 Haxorus</p>
@@ -747,7 +747,7 @@ const WikiClans = () => {
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 4</h3>
-                  <p className="ml-4">Jolteon</p>
+                  <p className="ml-4">Entregar um Jolteon</p>
                 </ul>
               </div>
             </Accordion>
@@ -797,7 +797,7 @@ const WikiClans = () => {
                   <p className="ml-4">Catch Shiny Raichu</p>
 
                   <h3 className="font-bold text-gray-700">Task 12</h3>
-                  <p className="ml-4">Shiny Raichu</p>
+                  <p className="ml-4">Entregar um Shiny Raichu</p>
 
                   <h3 className="font-bold text-gray-700">Task 13</h3>
                   <p className="ml-4">Defeat 500 Shiny Manectric</p>
@@ -828,7 +828,7 @@ const WikiClans = () => {
                   <p className="ml-4">Catch Shiny Pachirisu</p>
 
                   <h3 className="font-bold text-gray-700">Task 18</h3>
-                  <p className="ml-4">Shiny Pachirisu</p>
+                  <p className="ml-4">Entregar um Shiny Pachirisu</p>
 
                   <h3 className="font-bold text-gray-700">Task 19</h3>
                   <p className="ml-4">Defeat 8000 Eelektross</p>
@@ -908,7 +908,7 @@ const WikiClans = () => {
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 4</h3>
-                  <p className="ml-4">Gengar</p>
+                  <p className="ml-4">Entregar um Gengar</p>
                 </ul>
               </div>
             </Accordion>
@@ -958,7 +958,7 @@ const WikiClans = () => {
                   <p className="ml-4">Catch Shiny Misdreavus</p>
 
                   <h3 className="font-bold text-gray-700">Task 12</h3>
-                  <p className="ml-4">Shiny Misdreavus</p>
+                  <p className="ml-4">Entregar um Shiny Misdreavus</p>
 
                   <h3 className="font-bold text-gray-700">Task 13</h3>
                   <p className="ml-4">Defeat 500 Shiny Beedrill</p>
@@ -1003,7 +1003,7 @@ const WikiClans = () => {
                   <p className="ml-4">Defeat 2000 Drapions</p>
 
                   <h3 className="font-bold text-gray-700">Task 22</h3>
-                  <p className="ml-4">Cofagrigus</p>
+                  <p className="ml-4">Entregar um Cofagrigus</p>
 
                   <h3 className="font-bold text-gray-700">Task 23</h3>
                   <ul className="ml-4 list-disc list-inside">
@@ -1069,7 +1069,7 @@ const WikiClans = () => {
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 4</h3>
-                  <p className="ml-4">Onix</p>
+                  <p className="ml-4">Entregar um Onix</p>
                 </ul>
               </div>
             </Accordion>
@@ -1119,7 +1119,7 @@ const WikiClans = () => {
                   <p className="ml-4">Catch Shiny Sandslash</p>
 
                   <h3 className="font-bold text-gray-700">Task 12</h3>
-                  <p className="ml-4">Shiny Sandslash</p>
+                  <p className="ml-4">Entregar um Shiny Sandslash</p>
 
                   <h3 className="font-bold text-gray-700">Task 13</h3>
                   <p className="ml-4">Defeat 500 Shiny Rhydon</p>
@@ -1150,7 +1150,7 @@ const WikiClans = () => {
                   <p className="ml-4">Catch Shiny Flygon</p>
 
                   <h3 className="font-bold text-gray-700">Task 18</h3>
-                  <p className="ml-4">Shiny Flygon</p>
+                  <p className="ml-4">Entregar um Shiny Flygon</p>
 
                   <h3 className="font-bold text-gray-700">Task 19</h3>
                   <p className="ml-4">Defeat 8000 Seismitoad</p>
@@ -1231,7 +1231,7 @@ const WikiClans = () => {
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 4</h3>
-                  <p className="ml-4">Alakazam</p>
+                  <p className="ml-4">Entregar um Alakazam</p>
                 </ul>
               </div>
             </Accordion>
@@ -1281,7 +1281,7 @@ const WikiClans = () => {
                   <p className="ml-4">Catch Shiny Mr Mime</p>
 
                   <h3 className="font-bold text-gray-700">Task 12</h3>
-                  <p className="ml-4">Shiny Mr Mime</p>
+                  <p className="ml-4">Entregar um Shiny Mr Mime</p>
 
                   <h3 className="font-bold text-gray-700">Task 13</h3>
                   <p className="ml-4">Defeat 500 Shiny Wobbuffet</p>
@@ -1312,7 +1312,7 @@ const WikiClans = () => {
                   <p className="ml-4">Catch Shiny Grumpig</p>
 
                   <h3 className="font-bold text-gray-700">Task 18</h3>
-                  <p className="ml-4">Shiny Grumpig</p>
+                  <p className="ml-4">Entregar um Shiny Grumpig</p>
 
                   <h3 className="font-bold text-gray-700">Task 19</h3>
                   <p className="ml-4">Defeat 8000 Whimsicott</p>
@@ -1551,7 +1551,7 @@ const WikiClans = () => {
                   </ul>
 
                   <h3 className="font-bold text-gray-700">Task 4</h3>
-                  <p className="ml-4">Skarmory</p>
+                  <p className="ml-4">Entregar um Skarmory</p>
                 </ul>
               </div>
             </Accordion>
@@ -1601,7 +1601,7 @@ const WikiClans = () => {
                   <p className="ml-4">Catch Shiny Steelix</p>
 
                   <h3 className="font-bold text-gray-700">Task 12</h3>
-                  <p className="ml-4">Shiny Steelix</p>
+                  <p className="ml-4">Entregar um Shiny Steelix</p>
 
                   <h3 className="font-bold text-gray-700">Task 13</h3>
                   <p className="ml-4">Defeat 500 Shiny Magneton</p>
@@ -1632,7 +1632,7 @@ const WikiClans = () => {
                   <p className="ml-4">Catch Shiny Skarmory</p>
 
                   <h3 className="font-bold text-gray-700">Task 18</h3>
-                  <p className="ml-4">Shiny Skarmory</p>
+                  <p className="ml-4">Entregar um Shiny Skarmory</p>
 
                   <h3 className="font-bold text-gray-700">Task 19</h3>
                   <p className="ml-4">Defeat 8000 Excadrill</p>
