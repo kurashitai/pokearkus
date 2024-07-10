@@ -35,7 +35,10 @@ const WikiTasks = () => {
         </p>
         <ul>
           <li className=" xl:px-10 md:px-4 sm:px-2 py-1">
-            <strong>100 Pontos</strong>: Libera os Desafios de Paradoxo.
+            <strong>100 Pontos</strong>: Libera os Desafios de{" "}
+            <a href="/wiki/paradoxo" className="text-blue-600 underline">
+              Paradoxo.
+            </a>
           </li>
           <li className=" xl:px-10 md:px-4 sm:px-2 py-1">
             <strong>250 Pontos</strong>: Libera o Task Shop.

@@ -14,7 +14,7 @@ const Wiki = () => {
     // Aqui você pode colocar qualquer outra lógica necessária no futuro
   }, []);
   return (
-    <div className="relative w-full bg-gray-400">
+    <div className="relative w-full bg-zinc-600">
       <WikiLeft />
       <h1 className="text-center uppercase text-6xl font-extrabold dark:text-white py-10 shadow-sm">
         Bem vindo à wiki do Poke Arkus
@@ -27,7 +27,7 @@ const Wiki = () => {
           Discord
         </Link>
       </p>
-      <div className="relative w-full bg-gray-400">
+      <div className="relative w-full bg-gradient-to-b from-zinc-600 to-zinc-400">
         <div className="w-3/4 m-auto flex flex-wrap justify-center p-10">
           {systems.map((system, index) => (
             <div key={index} className="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 p-2">
@@ -83,15 +83,57 @@ const systems = [
   },
   {
     image: "/system/goal.png",
-    alt: "held system",
+    alt: "task system",
     title: "Tasks+Proficiência",
     link: "/wiki/tasks",
   },
   {
     image: "/system/goal.png",
-    alt: "held system",
+    alt: "ud system",
     title: "Ultra Dimension",
     link: "/wiki/ud",
+  },
+  {
+    image: "/system/goal.png",
+    alt: "paradox system",
+    title: "Paradox",
+    link: "/wiki/paradoxo",
+  },
+  {
+    image: "/system/goal.png",
+    alt: "lendarios system",
+    title: "Lendarios",
+    link: "/wiki/lendarios",
+  },
+  {
+    image: "/system/goal.png",
+    alt: "fishing system",
+    title: "Pesca",
+    link: "/wiki/pesca",
+  },
+  {
+    image: "/system/goal.png",
+    alt: "outland system",
+    title: "Outland",
+    link: "/wiki/outland",
+  },
+  {
+    image: "/system/goal.png",
+    alt: "market and bank system",
+    title: "Market e Bank",
+    link: "/wiki/market",
+  },
+  {
+    image: "/system/goal.png",
+    alt: "catch system",
+    title: "Catch System",
+    link: "/wiki/catch",
+  },
+  {
+    image: "/system/goal.png",
+    alt: "star shop, awaken and rune system",
+    title: "Star Shop+Awaken+Runas",
+    link: "/wiki/starshop",
   },
 ];
 

@@ -51,7 +51,7 @@ export function WikiLeft() {
             <ul className="space-y-1">
               <li id="mainpage-description">
                 <a
-                  href="#mainpage"
+                  href="/"
                   title="Acessar a página principal [alt-shift-z]"
                   accessKey="z"
                   className="text-blue-500 hover:underline block p-2"
@@ -59,12 +59,12 @@ export function WikiLeft() {
                   Página principal
                 </a>
               </li>
-              <li id="team">
+              <li id="download">
                 <a
-                  href="#team"
+                  href="/downloads"
                   className="text-blue-500 hover:underline block p-2"
                 >
-                  Equipe
+                  Download
                 </a>
               </li>
             </ul>
@@ -82,7 +82,7 @@ export function WikiLeft() {
           </h3>
           <div>
             <ul className="space-y-1">
-              <li id="characters">
+              <li id="clans">
                 <a
                   href="/wiki/clans"
                   className="text-blue-500 hover:underline block p-2"
@@ -90,12 +90,12 @@ export function WikiLeft() {
                   Clans
                 </a>
               </li>
-              <li id="quests">
+              <li id="ultra dimension">
                 <a
-                  href="#quests"
+                  href="/wiki/ud"
                   className="text-blue-500 hover:underline block p-2"
                 >
-                  Quests
+                  Ultra Dimension (UD)
                 </a>
               </li>
               <li id="progression">
@@ -106,72 +106,74 @@ export function WikiLeft() {
                   Dungeons
                 </a>
               </li>
-            </ul>
-          </div>
-        </nav>
-
-        <nav
-          id="nav-tasks"
-          aria-labelledby="tasks-label"
-          role="navigation"
-          className="mt-2"
-        >
-          <h3 id="tasks-label" className="p-3 text-lg font-semibold">
-            <span>Tasks</span>
-          </h3>
-          <div>
-            <ul className="space-y-1">
-              <li id="kanto">
+              <li id="helds and device">
                 <a
-                  href="#kanto"
+                  href="/wiki/helds"
                   className="text-blue-500 hover:underline block p-2"
                 >
-                  Kanto
+                  Helds e Device
                 </a>
               </li>
-              <li id="phenac">
+              <li id="task e proficiência">
                 <a
-                  href="#phenac"
+                  href="/wiki/tasks"
                   className="text-blue-500 hover:underline block p-2"
                 >
-                  Phenac
+                  Task e Proficiência
                 </a>
               </li>
-              <li id="sinnoh">
+              <li id="paradox">
                 <a
-                  href="#sinnoh"
+                  href="/wiki/paradoxo"
                   className="text-blue-500 hover:underline block p-2"
                 >
-                  Sinnoh
+                  Paradox
                 </a>
               </li>
-              <li id="dz">
+              <li id="legendary">
                 <a
-                  href="#dz"
+                  href="/wiki/lendarios"
                   className="text-blue-500 hover:underline block p-2"
                 >
-                  Dz
+                  Lendarios
                 </a>
               </li>
-              <li id="runes">
+              <li id="outland">
                 <a
-                  href="#runes"
+                  href="/wiki/outland"
+                  className="text-blue-500 hover:underline block p-2"
+                >
+                  Outland
+                </a>
+              </li>
+              <li id="starshop">
+                <a
+                  href="/wiki/starshop"
+                  className="text-blue-500 hover:underline block p-2"
+                >
+                  Star Shop
+                </a>
+              </li>
+              <li id="awaken">
+                <a
+                  href="/wiki/starshop"
+                  className="text-blue-500 hover:underline block p-2"
+                >
+                  Awaken
+                </a>
+              </li>
+              <li id="rune">
+                <a
+                  href="/wiki/starshop"
                   className="text-blue-500 hover:underline block p-2"
                 >
                   Runas
                 </a>
               </li>
-              <li id="legends">
-                <a
-                  href="#legends"
-                  className="text-blue-500 hover:underline block p-2"
-                >
-                  Lendas
-                </a>
-              </li>
             </ul>
           </div>
         </nav>
+
         <nav
           id="nav-beginners"
           aria-labelledby="beginners-label"
@@ -185,7 +187,7 @@ export function WikiLeft() {
             <ul className="space-y-1">
               <li id="faq">
                 <a
-                  href="#faq"
+                  href="/wiki/faq"
                   className="text-blue-500 hover:underline block p-2"
                 >
                   FAQ
@@ -201,18 +203,26 @@ export function WikiLeft() {
               </li>
               <li id="market-system">
                 <a
-                  href="#market-system"
+                  href="/wiki/market"
                   className="text-blue-500 hover:underline block p-2"
                 >
                   Sistema de Market
                 </a>
               </li>
-              <li id="tutorials">
+              <li id="fishing">
                 <a
-                  href="#tutorials"
+                  href="/wiki/pesca"
                   className="text-blue-500 hover:underline block p-2"
                 >
-                  Tutoriais
+                  Pesca
+                </a>
+              </li>
+              <li id="catch">
+                <a
+                  href="/wiki/catch"
+                  className="text-blue-500 hover:underline block p-2"
+                >
+                  Catch System
                 </a>
               </li>
             </ul>

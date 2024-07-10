@@ -226,7 +226,17 @@ const WikiClans = () => {
           className="bg-green-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
         >
           <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
-            <p className="px-2 py-2">Teste</p>
+            <p className=" xl:px-10 md:px-4 sm:px-2 py-2 flex">
+              O Clã Naturia é um clã especializado na natureza, tendo como
+              elementos: Planta e Inseto. Eles tem uma grande paixão pela
+              natureza e tudo que ela fornece.
+            </p>
+            <p className=" xl:px-10 md:px-4 sm:px-2 py-2 flex">
+              Caso você deseje se aventurar neste clã e desbloquear todo seu
+              potencial, logo abaixo está preparado uma lista contendo tudo que
+              você vai precisar em cada ranking, em cada task, para assim você
+              poder se preparar para o que está por vir! Boa sorte, treinador.
+            </p>
             <Accordion
               title="Rank 1"
               className="bg-green-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
@@ -377,7 +387,17 @@ const WikiClans = () => {
           className="bg-cyan-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
         >
           <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
-            <p className="px-2 py-2">Teste</p>
+            <p className=" xl:px-10 md:px-4 sm:px-2 py-2 flex">
+              Os membros deste clã são conhecidos por seu conhecimento do mar e
+              das criaturas que vivem lá. Eles são capazes de lidar com os
+              pokemons mais poderosos do tipo Água e Gelo.
+            </p>
+            <p className=" xl:px-10 md:px-4 sm:px-2 py-2 flex">
+              Caso você deseje se aventurar neste clã e desbloquear todo seu
+              potencial, logo abaixo está preparado uma lista contendo tudo que
+              você vai precisar em cada ranking, em cada task, para assim você
+              poder se preparar para o que está por vir! Boa sorte, treinador.
+            </p>
             <Accordion
               title="Rank 1"
               className="bg-cyan-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
@@ -528,7 +548,17 @@ const WikiClans = () => {
           className="bg-gray-300 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
         >
           <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
-            <p className="px-2 py-2">Teste</p>
+            <p className=" xl:px-10 md:px-4 sm:px-2 py-2 flex">
+              Os membros do clã Wingeon são muito isolados das cidades. Eles
+              preferem viver entre os pokemons do tipo Voador e Dragão nas
+              montanhas mais altas, ao ar livre.
+            </p>
+            <p className=" xl:px-10 md:px-4 sm:px-2 py-2 flex">
+              Caso você deseje se aventurar neste clã e desbloquear todo seu
+              potencial, logo abaixo está preparado uma lista contendo tudo que
+              você vai precisar em cada ranking, em cada task, para assim você
+              poder se preparar para o que está por vir! Boa sorte, treinador.
+            </p>
             <Accordion
               title="Rank 1"
               className="bg-gray-300 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
@@ -679,7 +709,18 @@ const WikiClans = () => {
           className="bg-yellow-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
         >
           <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
-            <p className="px-2 py-2">Teste</p>
+            <p className=" xl:px-10 md:px-4 sm:px-2 py-2 flex">
+              Os membros do clã Raibolt são muito inteligentes. Eles sabem de
+              tudo o que é necessário para lidar com seus pokemons do tipo
+              Elétrico para derrotar seus inimigos em batalha com facilidade,
+              eletrizante, não é mesmo?
+            </p>
+            <p className=" xl:px-10 md:px-4 sm:px-2 py-2 flex">
+              Caso você deseje se aventurar neste clã e desbloquear todo seu
+              potencial, logo abaixo está preparado uma lista contendo tudo que
+              você vai precisar em cada ranking, em cada task, para assim você
+              poder se preparar para o que está por vir! Boa sorte, treinador.
+            </p>
             <Accordion
               title="Rank 1"
               className="bg-yellow-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
@@ -830,7 +871,17 @@ const WikiClans = () => {
           className="bg-purple-600 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
         >
           <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
-            <p className="px-2 py-2">Teste</p>
+            <p className=" xl:px-10 md:px-4 sm:px-2 py-2 flex">
+              Os membrls do clã Malefic são conhecidos por serem misteriosos.
+              Eles nunca conversam sobre sua vida pessoal com estranhos e
+              controlam os pokemons do tipo Fastasma, Dark e Veneno,
+            </p>
+            <p className=" xl:px-10 md:px-4 sm:px-2 py-2 flex">
+              Caso você deseje se aventurar neste clã e desbloquear todo seu
+              potencial, logo abaixo está preparado uma lista contendo tudo que
+              você vai precisar em cada ranking, em cada task, para assim você
+              poder se preparar para o que está por vir! Boa sorte, treinador.
+            </p>
             <Accordion
               title="Rank 1"
               className="bg-purple-600 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
@@ -981,7 +1032,17 @@ const WikiClans = () => {
           className="bg-black p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
         >
           <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
-            <p className="px-2 py-2">Teste</p>
+            <p className=" xl:px-10 md:px-4 sm:px-2 py-2 flex">
+              Os membros do clã Orebound dedicam suas vidas para lidar com os
+              mais fortes pokemons do tipo Terra e Pedra para derrotar qualquer
+              oponente que encontrarem.
+            </p>
+            <p className=" xl:px-10 md:px-4 sm:px-2 py-2 flex">
+              Caso você deseje se aventurar neste clã e desbloquear todo seu
+              potencial, logo abaixo está preparado uma lista contendo tudo que
+              você vai precisar em cada ranking, em cada task, para assim você
+              poder se preparar para o que está por vir! Boa sorte, treinador.
+            </p>
             <Accordion
               title="Rank 1"
               className="bg-black p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
@@ -1132,7 +1193,18 @@ const WikiClans = () => {
           className="bg-pink-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
         >
           <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
-            <p className="px-2 py-2">Teste</p>
+            <p className=" xl:px-10 md:px-4 sm:px-2 py-2 flex">
+              Os membros deste clã são enigmáticos. Dizem que eles podem
+              controlar a mente de Pokemons do tipo Psiquico e tem um forte
+              vínculo com pokemons do tipo Fada, que são muito afetuosos com
+              seus mestres.
+            </p>
+            <p className=" xl:px-10 md:px-4 sm:px-2 py-2 flex">
+              Caso você deseje se aventurar neste clã e desbloquear todo seu
+              potencial, logo abaixo está preparado uma lista contendo tudo que
+              você vai precisar em cada ranking, em cada task, para assim você
+              poder se preparar para o que está por vir! Boa sorte, treinador.
+            </p>
             <Accordion
               title="Rank 1"
               className="bg-pink-400 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
@@ -1283,7 +1355,16 @@ const WikiClans = () => {
           className=" bg-amber-900 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
         >
           <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
-            <p className="px-2 py-2">Teste</p>
+            <p className=" xl:px-10 md:px-4 sm:px-2 py-2 flex">
+              Os membros do clã Gardetrike são fortes. Sua força foi conquistada
+              após um longo treinamento com pokemons do tipo Normal e Lutador.
+            </p>
+            <p className=" xl:px-10 md:px-4 sm:px-2 py-2 flex">
+              Caso você deseje se aventurar neste clã e desbloquear todo seu
+              potencial, logo abaixo está preparado uma lista contendo tudo que
+              você vai precisar em cada ranking, em cada task, para assim você
+              poder se preparar para o que está por vir! Boa sorte, treinador.
+            </p>
             <Accordion
               title="Rank 1"
               className="bg-amber-900 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
@@ -1433,7 +1514,18 @@ const WikiClans = () => {
           className="bg-gray-600 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
         >
           <div className="bg-white border border-gray-300 rounded-lg text-justify text-black font-normal w-[100%] max-w-full sm:w-[100%] mx-auto p-2">
-            <p className="px-2 py-2">Teste</p>
+            <p className=" xl:px-10 md:px-4 sm:px-2 py-2 flex">
+              Os Pokemons do clã Ironhard são conhecidos por sua força bruta,
+              resistência e alcance, dominando o elemento Metal. Eles passaram
+              anos aperfeiçoando suas técnicas para quebrar todos os seus
+              limites.
+            </p>
+            <p className=" xl:px-10 md:px-4 sm:px-2 py-2 flex">
+              Caso você deseje se aventurar neste clã e desbloquear todo seu
+              potencial, logo abaixo está preparado uma lista contendo tudo que
+              você vai precisar em cada ranking, em cada task, para assim você
+              poder se preparar para o que está por vir! Boa sorte, treinador.
+            </p>
             <Accordion
               title="Rank 1"
               className="bg-gray-600 p-1 rounded-lg xl:mx-9 md:mx-3 sm:mx-1 my-2 text-white font-bold"
