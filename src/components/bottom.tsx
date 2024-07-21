@@ -19,7 +19,7 @@ export function Rodape() {
             alt="windows download"
           />
           <span className="relative z-10 text-black font-extrabold text-3xl pb-10 text-center">
-            REQUESITOS MINIMOS
+            REQUISITOS MINIMOS
           </span>
           <ul className="uppercase text-xl font-extrabold text-center list-disc py-4 bg-white rounded-3xl">
             <div className="flex flex-col gap-2 text-left pl-10">
@@ -50,7 +50,7 @@ export function Rodape() {
             alt="android download"
           />
           <span className="relative z-10 text-black font-extrabold text-3xl pb-10 text-center">
-            REQUESITOS MINIMOS
+            REQUISITOS MINIMOS
           </span>
           <ul className="uppercase text-xl font-extrabold text-center list-disc py-4 bg-white rounded-3xl">
             <div className="flex flex-col gap-2 text-left pl-10">
