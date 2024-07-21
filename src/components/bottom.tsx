@@ -31,7 +31,10 @@ export function Rodape() {
             </div>
           </ul>
           <div className="flex justify-center pt-8">
-            <a href="../downloads">
+            <a
+              href="https://mega.nz/file/zA0XiaBa#wJAHacYsNdszSAPlza05dNtLdFONxiFw8g0l8bjjV2g"
+              target="_blank"
+            >
               <button className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 rounded-lg text-3xl font-extrabold px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
                 DOWNLOAD
               </button>
@@ -59,7 +62,10 @@ export function Rodape() {
             </div>
           </ul>
           <div className="flex justify-center pt-8">
-            <a href="../downloads">
+            <a
+              href="https://mega.nz/file/ad0AADCD#nABaV193YrCbY90-JME44rDjYSA1kHZjh-9RngmnLNI"
+              target="_blank"
+            >
               <button className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 rounded-lg text-3xl font-extrabold px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
                 DOWNLOAD
               </button>
