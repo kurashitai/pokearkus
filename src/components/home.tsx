@@ -5,7 +5,10 @@ import { useRef } from "react";
 
 export function Landing() {
   const scrollToSection = () => {
-    document.getElementById("download").scrollIntoView({ behavior: "smooth" });
+    const element = document.getElementById("download");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
   };
   return (
     <section>
