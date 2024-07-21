@@ -6,7 +6,7 @@ export function WikiLeft() {
 
   return (
     <div className="relative z-20">
-      <div className="lg:hidden p-4">
+      <div className="xl:hidden p-4">
         <button
           className="bg-gray-300 p-4 rounded"
           onClick={() => setIsOpen(!isOpen)}
@@ -61,7 +61,7 @@ export function WikiLeft() {
               </li>
               <li id="download">
                 <a
-                  href="/downloads"
+                  href="/#download"
                   className="text-blue-500 hover:underline block p-2"
                 >
                   Download

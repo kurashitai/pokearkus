@@ -7,7 +7,7 @@ import Accordion from "@/components/accordion";
 
 const WikiOutland = () => {
   return (
-    <div className="relative w-full bg-gray-400 p-5">
+    <div className="relative w-full bg-gray-400 p-5 xl:pt-16">
       <WikiLeft />
       <h1 className="text-center uppercase text-6xl font-extrabold dark:text-white py-10 shadow-sm">
         Outlands

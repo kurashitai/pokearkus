@@ -10,11 +10,9 @@ const Wiki = () => {
     window.location.href = link;
   };
 
-  useEffect(() => {
-    // Aqui você pode colocar qualquer outra lógica necessária no futuro
-  }, []);
+  useEffect(() => {}, []);
   return (
-    <div className="relative w-full bg-zinc-600">
+    <div className="relative w-full bg-zinc-600 xl:pt-16 lg:px-56">
       <WikiLeft />
       <h1 className="text-center uppercase text-6xl font-extrabold dark:text-white py-10 shadow-sm">
         Bem vindo à wiki do Poke Arkus

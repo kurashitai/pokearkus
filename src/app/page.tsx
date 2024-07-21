@@ -5,14 +5,32 @@ import { Landing } from "@/components/home";
 import { System } from "@/components/systems";
 import { Rodape } from "@/components/bottom";
 import Image from "next/image";
+import { FaDownload } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
+    <div
+      className="relative w-full h-full bg-cover bg-center pt-60"
+      style={{ backgroundImage: `url('/background.png')` }}
+    >
       <Landing />
       <App />
-      <Clans />
-      <System />
+      <div className="relative flex flex-col gap-5 items-center justify-center py-10 pb-0 pt-40">
+        <button
+          className="relative w-[284px] h-[63px] flex items-center justify-center px-6 text-black font-extrabold text-3xl bg-transparent border-none outline-none"
+          style={{
+            backgroundImage: `url('/textbg.png')`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          <span className="relative z-10">CLÃ</span>
+        </button>
+      </div>
+      <div className="relative flex flex-row gap-5 items-center justify-center py-10 pb-20">
+        <Image src={"/clan.png"} width={1230} height={680} alt="clans" />
+      </div>
       <Rodape />
       <div className="justify-between text-center items-center p-10">
         <p className=" font-extrabold">
