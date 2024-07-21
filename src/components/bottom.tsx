@@ -7,7 +7,7 @@ export function Rodape() {
   return (
     <div className="w-full">
       <div
-        className="max-w-7xl mx-auto flex flex-col lg:flex-row lg:items-stretch lg:justify-between lg:gap-40 p-5 lg:p-10 my-40"
+        className="max-w-7xl mx-auto flex flex-col lg:flex-row lg:items-stretch lg:justify-between lg:gap-40 p-5 lg:p-10 my-40 gap-20"
         id="download"
       >
         <div className="flex flex-col justify-between bg-gray-200 rounded-3xl p-5 lg:p-10 flex-1">
@@ -18,16 +18,16 @@ export function Rodape() {
             height={129}
             alt="windows download"
           />
-          <span className="relative z-10  text-black font-extrabold text-3xl pb-10 text-center">
+          <span className="relative z-10 text-black font-extrabold text-3xl pb-10 text-center">
             REQUESITOS MINIMOS
           </span>
           <ul className="uppercase text-xl font-extrabold text-center list-disc py-4 bg-white rounded-3xl">
             <div className="flex flex-col gap-2 text-left pl-10">
-              <li className=" text-lg italic">Windows 7 ou superior</li>
-              <li className=" text-lg italic">DirectX 9.0 ou OPGL 1.2+</li>
-              <li className=" text-lg italic">4GB+ de Memoria RAM</li>
-              <li className=" text-lg italic">1GB+ de Armazenamento Livre</li>
-              <li className=" text-lg italic">Boa conexão com a internet</li>
+              <li className="text-lg italic">Windows 7 ou superior</li>
+              <li className="text-lg italic">DirectX 9.0 ou OPGL 1.2+</li>
+              <li className="text-lg italic">4GB+ de Memoria RAM</li>
+              <li className="text-lg italic">1GB+ de Armazenamento Livre</li>
+              <li className="text-lg italic">Boa conexão com a internet</li>
             </div>
           </ul>
           <div className="flex justify-center pt-8">
@@ -46,16 +46,16 @@ export function Rodape() {
             height={129}
             alt="android download"
           />
-          <span className="relative z-10  text-black font-extrabold text-3xl pb-10 text-center">
+          <span className="relative z-10 text-black font-extrabold text-3xl pb-10 text-center">
             REQUESITOS MINIMOS
           </span>
           <ul className="uppercase text-xl font-extrabold text-center list-disc py-4 bg-white rounded-3xl">
             <div className="flex flex-col gap-2 text-left pl-10">
-              <li className=" text-lg italic">Android 7 ou superior</li>
-              <li className=" text-lg italic">DirectX 9.0 ou OPGL 1.2+</li>
-              <li className=" text-lg italic">4GB+ de Memoria RAM</li>
-              <li className=" text-lg italic">500mb de Armazenamento Livre</li>
-              <li className=" text-lg italic">Boa conexão com a internet</li>
+              <li className="text-lg italic">Android 7 ou superior</li>
+              <li className="text-lg italic">DirectX 9.0 ou OPGL 1.2+</li>
+              <li className="text-lg italic">4GB+ de Memoria RAM</li>
+              <li className="text-lg italic">500mb de Armazenamento Livre</li>
+              <li className="text-lg italic">Boa conexão com a internet</li>
             </div>
           </ul>
           <div className="flex justify-center pt-8">
