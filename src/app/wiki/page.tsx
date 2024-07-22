@@ -56,7 +56,7 @@ const Wiki = () => {
 
 const systems = [
   {
-    image: "/system/tierlist.png",
+    image: "/donationgoal.png",
     alt: "clans system",
     title: "Clans",
     link: "/wiki/clans",

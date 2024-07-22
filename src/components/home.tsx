@@ -23,7 +23,9 @@ export function Landing() {
             backgroundPosition: "center",
           }}
         >
-          <span className="relative z-10">JOGUE GRÁTIS AGORA</span>
+          <span className="relative z-10">
+            JOGUE GRÁTIS AGORA <br /> CRIE A CONTA EM NOSSO CLIENT
+          </span>
         </button>
       </div>
     </section>
