@@ -35,14 +35,14 @@ export default function Home() {
           <Image
             src={"/clan.png"}
             className=" cursor-pointer"
-            width={1230}
+            width={1168}
             height={680}
             alt="clans"
           />
         </a>
       </div>
       <Rodape />
-      <div className="justify-between text-center items-center p-10">
+      <div className="justify-between text-center text-white items-center p-10">
         <p className=" font-extrabold">
           Divirta-se com outros jogadores em um mundo repleto de Pokémons e
           aventuras.
@@ -51,10 +51,7 @@ export default function Home() {
           © 1996 - 2023 | Todos os Pokémons e seus respectivos nomes são
           direitos reservados a Nintendo.
         </p>
-        <p>
-          Um game feito de fã para fã | Arkus Team.Um game feito de fã para fã |
-          Arkus Team.
-        </p>
+        <p>Um game feito de fã para fã | Arkus Team.</p>
       </div>
     </div>
   );

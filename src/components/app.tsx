@@ -58,7 +58,7 @@ export function App() {
         </button>
       </div>
       <div className="max-w-[1200px] h-[780px] w-full m-auto py-16 px-4 relative group">
-        <div className="w-full h-full rounded-[40px] border-white border-2 p-2 box-border">
+        <div className="w-full h-full rounded-[40px] border-white border-8 p-2 box-border">
           <div
             style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
             className="w-full h-full rounded-[30px] bg-center bg-cover duration-500"

@@ -12,7 +12,7 @@ const Wiki = () => {
 
   useEffect(() => {}, []);
   return (
-    <div className="relative w-full bg-zinc-600 xl:pt-16 lg:px-56">
+    <div className="relative w-full bg-gradient-to-b from-black to-zinc-800 xl:pt-16 lg:px-56">
       <WikiLeft />
       <h1 className="text-center uppercase text-6xl font-extrabold dark:text-white py-10 shadow-sm">
         Bem vindo à wiki do Poke Arkus
@@ -25,7 +25,7 @@ const Wiki = () => {
           Discord
         </Link>
       </p>
-      <div className="relative w-full bg-gradient-to-b from-zinc-600 to-zinc-400">
+      <div className="relative w-full bg-transparent">
         <div className="w-3/4 m-auto flex flex-wrap justify-center p-10">
           {systems.map((system, index) => (
             <div key={index} className="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 p-2">
@@ -41,9 +41,9 @@ const Wiki = () => {
                     height={270}
                     alt={system.alt}
                   />
-                  <p className="text-center uppercase text-xl font-extrabold dark:text-white py-3 shadow-sm">
+                  {/* <p className="text-center uppercase text-xl font-extrabold dark:text-white py-3 shadow-sm">
                     {system.title}
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -56,79 +56,79 @@ const Wiki = () => {
 
 const systems = [
   {
-    image: "/donationgoal.png",
+    image: "/wiki/clans.png",
     alt: "clans system",
     title: "Clans",
     link: "/wiki/clans",
   },
   {
-    image: "/system/dz.png",
+    image: "/wiki/Zonas-Dim.png",
     alt: "dungeon system",
     title: "Dungeons",
     link: "/wiki/dungeons",
   },
   {
-    image: "/system/goal.png",
+    image: "/wiki/Boost.png",
     alt: "goal system",
     title: "Boost",
     link: "/wiki/boost",
   },
   {
-    image: "/system/goal.png",
+    image: "/wiki/Helds.png",
     alt: "held system",
     title: "Helds+Device",
     link: "/wiki/helds",
   },
   {
-    image: "/system/goal.png",
+    image: "/wiki/Tasks.png",
     alt: "task system",
     title: "Tasks+Proficiência",
     link: "/wiki/tasks",
   },
   {
-    image: "/system/goal.png",
+    image: "/wiki/Ultra-Dim.png",
     alt: "ud system",
     title: "Ultra Dimension",
     link: "/wiki/ud",
   },
   {
-    image: "/system/goal.png",
+    image: "/wiki/Pokemon Paradox.png",
     alt: "paradox system",
     title: "Paradox",
     link: "/wiki/paradoxo",
   },
   {
-    image: "/system/goal.png",
+    image: "/wiki/lendarios.png",
     alt: "lendarios system",
     title: "Lendarios",
     link: "/wiki/lendarios",
   },
   {
-    image: "/system/goal.png",
+    image: "/wiki/pescaicon.png",
     alt: "fishing system",
     title: "Pesca",
     link: "/wiki/pesca",
   },
   {
-    image: "/system/goal.png",
+    image: "/wiki/outland.png",
     alt: "outland system",
     title: "Outland",
     link: "/wiki/outland",
   },
   {
-    image: "/system/goal.png",
+    image: "/wiki/marketicon.png",
     alt: "market and bank system",
     title: "Market e Bank",
     link: "/wiki/market",
   },
   {
-    image: "/system/goal.png",
+    image: "/wiki/catch.png",
     alt: "catch system",
     title: "Catch System",
     link: "/wiki/catch",
   },
   {
-    image: "/system/goal.png",
+    image: "/wiki/Star Shop.png",
     alt: "star shop, awaken and rune system",
     title: "Star Shop+Awaken+Runas",
     link: "/wiki/starshop",

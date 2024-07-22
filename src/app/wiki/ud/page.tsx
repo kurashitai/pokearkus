@@ -14,7 +14,7 @@ const WikiUd = () => {
   };
 
   return (
-    <div className="relative w-full bg-gray-400 p-5 xl:pt-16">
+    <div className="relative w-full bg-gradient-to-b from-black to-zinc-800 p-5 xl:pt-16">
       <WikiLeft />
       <h1 className="text-center uppercase text-6xl font-extrabold dark:text-white py-10 shadow-sm">
         Ultra Dimension e Platinum

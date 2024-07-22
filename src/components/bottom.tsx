@@ -7,7 +7,7 @@ export function Rodape() {
   return (
     <div className="w-full">
       <div
-        className="max-w-7xl mx-auto flex flex-col lg:flex-row lg:items-stretch lg:justify-between lg:gap-40 p-5 lg:p-10 my-40 gap-20"
+        className="max-w-7xl mx-auto flex flex-col lg:flex-row lg:items-stretch lg:justify-between lg:gap-40 p-5 lg:p-10 my-40 gap-20 mb-10"
         id="download"
       >
         <div className="flex flex-col justify-between bg-gray-200 rounded-3xl p-5 lg:p-10 flex-1">
@@ -66,16 +66,16 @@ export function Rodape() {
               href="https://mega.nz/file/ad0AADCD#nABaV193YrCbY90-JME44rDjYSA1kHZjh-9RngmnLNI"
               target="_blank"
             >
-              <button className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 rounded-lg text-3xl font-extrabold px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
-                DOWNLOAD
+              <button className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 rounded-lg text-xl font-extrabold px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                DOWNLOAD X64
               </button>
             </a>
             <a
-              href="https://mega.nz/file/ad0AADCD#nABaV193YrCbY90-JME44rDjYSA1kHZjh-9RngmnLNI"
+              href="https://mega.nz/file/fNVASYCI#jeZu5kLCXLHBi0e2TjIcW5cIF1wCi7sf3iIzjCyddQY"
               target="_blank"
             >
-              <button className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 rounded-lg text-3xl font-extrabold px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
-                DOWNLOAD
+              <button className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 rounded-lg text-xl font-extrabold px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                DOWNLOAD X32
               </button>
             </a>
           </div>
