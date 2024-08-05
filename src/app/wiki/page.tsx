@@ -14,10 +14,10 @@ const Wiki = () => {
   return (
     <div className="relative w-full bg-gradient-to-b from-black to-zinc-800 xl:pt-16 lg:px-56">
       <WikiLeft />
-      <h1 className="text-center uppercase text-6xl font-extrabold dark:text-white py-10 shadow-sm">
+      <h1 className="text-center uppercase text-6xl font-extrabold dark:text-white text-white py-10 shadow-sm">
         Bem vindo à wiki do Poke Arkus
       </h1>
-      <p className="text-center text-xl font-extrabold dark:text-white py-3 shadow-sm">
+      <p className="text-center text-xl font-extrabold dark:text-white text-white py-3 shadow-sm">
         Aqui estão alguns de nossos guias para te ajudar nessa jornada, mais
         guias estarão sendo adicionados ao longo do tempo, caso tenha sugestões
         para a wiki, favor abrir uma sugestão no nosso
@@ -41,7 +41,7 @@ const Wiki = () => {
                     height={270}
                     alt={system.alt}
                   />
-                  {/* <p className="text-center uppercase text-xl font-extrabold dark:text-white py-3 shadow-sm">
+                  {/* <p className="text-center uppercase text-xl font-extrabold dark:text-white text-white py-3 shadow-sm">
                     {system.title}
                   </p> */}
                 </div>

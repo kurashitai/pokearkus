@@ -63,7 +63,7 @@ export function Rodape() {
           </ul>
           <div className="flex justify-center pt-8">
             <a
-              href="https://mega.nz/file/ad0AADCD#nABaV193YrCbY90-JME44rDjYSA1kHZjh-9RngmnLNI"
+              href="https://mega.nz/file/XEVEkKKD#Xg5Iu2agj3a7xeZpaqPZ_-NFNheffpZp6O6XWmzg7IA"
               target="_blank"
             >
               <button className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 rounded-lg text-xl font-extrabold px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
@@ -71,7 +71,7 @@ export function Rodape() {
               </button>
             </a>
             <a
-              href="https://mega.nz/file/fNVASYCI#jeZu5kLCXLHBi0e2TjIcW5cIF1wCi7sf3iIzjCyddQY"
+              href="https://mega.nz/file/vEkhDIxY#-nGL58lIcfYaiNA2MMPrZJ6joDVij4XA0UouxQ_WS_Y"
               target="_blank"
             >
               <button className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 rounded-lg text-xl font-extrabold px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">

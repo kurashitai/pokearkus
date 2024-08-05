@@ -10,7 +10,7 @@ const WikiHelds = () => {
   return (
     <div className="relative w-full bg-gradient-to-b from-black to-zinc-800 p-5 xl:pt-16">
       <WikiLeft />
-      <h1 className="text-center uppercase text-6xl font-extrabold dark:text-white py-10 shadow-sm">
+      <h1 className="text-center uppercase text-6xl font-extrabold dark:text-white text-white py-10 shadow-sm">
         Helds e Device
       </h1>
       <div className="bg-white border border-gray-300 rounded-lg text-justify w-[100%] max-w-full sm:w-[60%] mx-auto p-4">
